@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #287466, #eb91be);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  text-align: center;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-box {
+  position: relative;
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px 10px;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  background: #f0f0f0;
+  transition: 0.3s;
+}
+
+.input-box label {
+  position: absolute;
+  top: -8px;
+  left: 10px;
+  background: white;
+  padding: 0 5px;
+  font-size: 14px;
+  color: #555;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #c5d79a;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #fabbbb;
+}
+
+.signup {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+.signup a {
+  color: #c5d79a;
+  text-decoration: none;
+}
+.signup a:hover {
+  text-decoration: underline;
+}
+
+
